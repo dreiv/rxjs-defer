@@ -11,5 +11,13 @@
   },
   "rules": {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
+    "@typescript-eslint/ban-types": [
+      "warning",
+      {
+        "types": {
+          "Function": "Prefer a specific function type, like `() => void`."
+        }
+      }
+    ]
   }
 }
